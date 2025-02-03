@@ -1,0 +1,24 @@
+{
+  "name": "challenge-10-employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlastname/Challenge-10-Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlastname/Challenge-10-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/dlastname/Challenge-10-Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^12.4.1",
+    "pg": "^8.13.1"
+  }
+}
