@@ -47,23 +47,23 @@ VALUES
     -- Johnny Silverhand is a Software Engineer with no manager.
     ('Johnny', 'Silverhand', 2, NULL),
     -- V is a Senior Software Engineer, managed by Johnny Silverhand.
-    ('V', 'Smith', 3, 2),
+    ('V', 'Smith', 3, 1),
     -- Leia Organa is an HR Manager with no manager.
     ('Leia', 'Organa', 4, NULL),
     -- Finn is an HR Associate, managed by Leia Organa.
-    ('Finn', 'Human', 5, 4),
+    ('Finn', 'Human', 5, 3),
     -- Tony Stark is a Sales Lead with no manager.
     ('Tony', 'Stark', 10, NULL),
     -- Peter Parker is a Sales Representative, managed by Tony Stark.
-    ('Peter', 'Parker', 11, 10),
+    ('Peter', 'Parker', 11, 5),
     -- Sora is a Marketing Manager with no manager.
     ('Sora', 'Keyblade', 8, NULL),
     -- Riku is a Marketing Specialist, managed by Sora.
-    ('Riku', 'Darkness', 9, 8),
+    ('Riku', 'Darkness', 9, 7),
     -- Kevin Flynn is a Financial Analyst with no manager.
     ('Kevin', 'Flynn', 6, NULL),
     -- CLU is an Accountant, managed by Kevin Flynn.
-    ('CLU', 'Flynn', 7, 6),
+    ('CLU', 'Flynn', 7, 9),
     -- Add Sheev Palpatine as an Emperor and his own manager.
     ('Sheev', 'Palpatine', 1, NULL);
 
