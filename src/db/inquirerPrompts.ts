@@ -40,18 +40,18 @@ const mainMenu = async () => {
     case "View all employees":
       await handleViewAllEmployees();
       break;
-    // case "Add a department":
-    //   await handleAddDepartment();
-    //   break;
-    // case "Add a role":
-    //   await handleAddRole();
-    //   break;
-    // case "Add an employee":
-    //   await handleAddEmployee();
-    //   break;
-    // case "Update an employee role":
-    //   await handleUpdateEmployeeRole();
-    //   break;
+    case "Add a department":
+      await handleAddDepartment();
+      break;
+    case "Add a role":
+      await handleAddRole();
+      break;
+    case "Add an employee":
+      await handleAddEmployee();
+      break;
+    case "Update an employee role":
+      await handleUpdateEmployeeRole();
+      break;
     case "Exit":
       process.exit();
   }
@@ -75,6 +75,15 @@ const handleViewAllRoles = async () => {
 const handleViewAllEmployees = async () => {
   const employees = await viewAllEmployees();
   console.table(employees);
+  mainMenu();
+};
+
+// Handler for adding a department
+const handleAddDepartment = async () => {
+  const department = await viewAllEmployees();
+  
+
+
   mainMenu();
 };
 
