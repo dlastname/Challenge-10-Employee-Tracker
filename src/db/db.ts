@@ -67,7 +67,7 @@ const addEmployee = async (
 };
 // Updating an employee
 const updateEmployeeRole = async (employeeId: number, roleId: number) => {
-  const query = "UPDATE employees SET role_id = $1 WHERE id = $2";
+  const query = "UPDATE employee SET role_id = $1 WHERE id = $2";
   await pool.query(query, [roleId, employeeId]);
 };
 
