@@ -37,7 +37,7 @@ You will be presented with the following options:
     Add an employee
     Update an employee role
 
-[CLICK HERE FOR VIDEO WALKTHROUGH](https://google.com)
+[CLICK HERE FOR VIDEO WALKTHROUGH](https://drive.google.com/file/d/1DgvglPb5DTaT-kdwU3JAyq_tcnff7OX-/view?usp=sharing)
 ## License
 
 This project is licensed under the MIT License.

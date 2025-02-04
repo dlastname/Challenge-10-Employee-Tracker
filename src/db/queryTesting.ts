@@ -1,3 +1,5 @@
+// !THIS FILE HAS NO FUNCTIONAL PURPOSE, IT'S ONLY TO CALL WHEN TESTING NEW QUERIES
+
 import { pool } from "./connection.js";
 
 import { viewAllDepartments, viewAllRoles, viewAllEmployees } from "./db.js";
