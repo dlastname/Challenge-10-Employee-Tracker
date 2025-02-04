@@ -1,6 +1,6 @@
-import { pool } from "./connection";
+import { pool } from "./connection.js";
 
-import { viewAllDepartments, viewAllRoles } from "./db";
+import { viewAllDepartments, viewAllRoles, viewAllEmployees } from "./db.js";
 
 const testQueries = async () => {
   try {
@@ -9,6 +9,9 @@ const testQueries = async () => {
 
     const roles = await viewAllRoles();
     console.log("Roles: ", roles);
+
+    const employees = await viewAllEmployees();
+    console.log("Employees: ", employees);
   } catch (err) {
     console.error("Error testing queries:", err);
   } finally {
